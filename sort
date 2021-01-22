@@ -1,0 +1,4 @@
+# to sort and reverse an array
+a.sort(reverse=True) 
+# sort an array in assending order
+a.sort
