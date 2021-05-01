@@ -1,2 +1,5 @@
 # for multiple variable inputs 
 x, y, z, n = (int(input()) for _ in range(4))
+
+#for arra/list input with a limit in single line
+a = list(map(int,input("\nEnter the numbers : ").strip(" ").split()))[:n]
