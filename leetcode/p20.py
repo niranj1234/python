@@ -46,7 +46,7 @@ class Solution:
 
         return not a
 # Example usage:
-s = "()[]}"
+s = "()[]{}"
 solution = Solution()
 result = solution.isValid(s)
 print(result)  # Output: True 
