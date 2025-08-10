@@ -24,6 +24,15 @@ for i in range(n):                             # Loop runs up to n times
         break                                  # Exit loop
 
 
+# better solution
+# seen = set()
+# for x in arr:
+#     if x in seen:    # O(1) average, hash lookup
+#         print(x)
+#         break
+#     seen.add(x)      # O(1) average, hash insert
+
+
 '''
 Worst-case scenario
 The loop could run n times if the break never happens early.
